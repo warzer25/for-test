@@ -1,0 +1,188 @@
+            //---------------------------------------------------------------------//
+             
+            //    Console.WriteLine("first number");
+            //    int n1 = Convert.ToInt32(Console.ReadLine());
+            //    Console.WriteLine("secend number");
+            //    int n2 = Convert.ToInt32(Console.ReadLine());
+            //    int r = n1 + n2;
+            //    Console.WriteLine(n1+"+"+n2+"="+r);
+            //    Console.ReadLine();
+
+            //---------------------------------------------------------------------//
+
+            //int a = Convert.ToInt32(Console.ReadLine());
+            //int b = Convert.ToInt32(Console.ReadLine());
+            //if (a > b)
+            //{
+            //    Console.WriteLine(a + ">" + b);
+            //}
+            //else
+            //    Console.WriteLine(b + ">" + a);
+            //Console.ReadLine();
+
+            //---------------------------------------------------------------------//
+
+            //double a = Convert.ToDouble(Console.ReadLine());
+            //if (a >= 0 && a <= 100)
+            //{
+            //    Console.WriteLine(a);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("mistake");
+            //}
+            //double b = Convert.ToDouble(Console.ReadLine());
+            //if (b >= 0 && b <= 100)
+            //{
+            //    Console.WriteLine(b);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("mistake");
+            //}
+            //double r = (a + b) / 3;
+            //Console.WriteLine(r);
+            //Console.ReadLine();
+
+            //---------------------------------------------------------------------//
+
+            //double a = Convert.ToDouble(Console.ReadLine());
+            //if (a > 0 && a < 100 || a > 300)
+            //{
+            //    Console.WriteLine("it ok:{0}",a);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("mistake");
+            //}
+            //Console.ReadLine();
+
+            //---------------------------------------------------------------------//
+
+            //for (int a = 5; a > -100; a--)
+            //{
+            //    Console.WriteLine(a);
+
+            //}
+            //Console.ReadLine();
+
+            //---------------------------------------------------------------------//
+
+            //int[] cars = { 2, 3, 4, 5 };
+            //foreach (int i in cars)
+            //{
+            //    int x = i % 2;
+            //    if (x == 0)
+            //    {
+            //        Console.WriteLine(i + " even");
+            //    }
+            //    else
+            //    {
+            //        Console.WriteLine(i + " od");
+            //    }
+            //}
+
+            //Console.ReadLine();
+
+            //---------------------------------------------------------------------//
+
+            //Console.WriteLine("----------------------------------------------------");
+            //int i, j;
+            //for (i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine("");
+            //    for (j = 1; j <= 10; j++)
+            //    {
+
+            //        Console.Write("{0,4}", i * j);
+
+            //    }
+            //    Console.WriteLine("");
+            //}
+            //Console.WriteLine("----------------------------------------------------");
+            //Console.ReadLine();
+
+            //---------------------------------------------------------------------//
+
+            //int[] b = new int[] { 2, 1, 7, 9, 11, 12, 14, 67, 90 };
+            //int w = 0;
+            //int x = 0;
+
+            //for (int i = 0; i < b.Length; i++)
+            //{
+            //    if (w < b[i])
+            //    {
+            //        if (b[i] % 2 != 0)
+            //        {
+            //            w = b[i];
+
+            //        }
+            //    }
+            //}
+            ////finding secend bigest odd number
+            //for (int i = 0; i < b.Length; i++)
+            //{
+            //    if (w > b[i])
+            //    {
+            //        if (b[i] % 2 != 0)
+            //        {
+            //            x = b[i];
+
+            //        }
+            //    }
+            //}
+            //Console.WriteLine(x);
+            //Console.WriteLine(w);
+            //Console.ReadLine();
+
+            //---------------------------------------------------------------------//
+            //float result = 0;
+            ////Getting Input of First number
+            //Console.WriteLine("Enter first number");
+            //float num1 = float.Parse(Console.ReadLine());
+
+            ////Getting Input of second number
+            //Console.WriteLine("Enter second number");
+            //float num2 = float.Parse(Console.ReadLine());
+
+            ////Getting the math operator
+            //Console.WriteLine("Enter operator:(+,-,*,/,%)");
+            //string op = Console.ReadLine();
+            //switch (op)
+            //{
+            //    case "+":
+            //        result = num1 + num2;
+            //        break;
+
+            //    case "-":
+            //        result = num1 - num2;
+            //        break;
+
+            //    case "*":
+            //        result = num1 * num2;
+            //        break;
+
+            //    case "/":
+            //        if (num2 == 0)
+            //        {
+            //            Console.WriteLine("cant diveid by zero");
+            //            break;
+            //        }
+            //        result = num1 / num2;
+            //        break;
+            //    case "%":
+            //        result = num1 % num2;
+            //        break;
+
+            //    default:
+            //        Console.WriteLine("mistake");
+            //        break;
+            //}
+
+            //Console.WriteLine("Result = " + result);
+            //Console.ReadLine();
+
+
+            //---------------------------------------------------------------------//
+
+            //---------------------------------------------------------------------//
