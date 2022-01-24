@@ -1,5 +1,7 @@
-            //---------------------------------------------------------------------//
-             
+//---------------------------------------------------------------------//
+            ////how to combine two int
+            ///is using (+)
+
             //    Console.WriteLine("first number");
             //    int n1 = Convert.ToInt32(Console.ReadLine());
             //    Console.WriteLine("secend number");
@@ -9,6 +11,9 @@
             //    Console.ReadLine();
 
             //---------------------------------------------------------------------//
+            ////how to find what number are biger and smaler
+            ////is by using > or <
+
 
             //int a = Convert.ToInt32(Console.ReadLine());
             //int b = Convert.ToInt32(Console.ReadLine());
@@ -21,6 +26,8 @@
             //Console.ReadLine();
 
             //---------------------------------------------------------------------//
+            ////how we enter number by our self
+            //// we use (double a = Convert.ToDouble(Console.ReadLine());)
 
             //double a = Convert.ToDouble(Console.ReadLine());
             //if (a >= 0 && a <= 100)
@@ -58,15 +65,20 @@
             //Console.ReadLine();
 
             //---------------------------------------------------------------------//
+            ////from 0 to -100
+
 
             //for (int a = 5; a > -100; a--)
             //{
             //    Console.WriteLine(a);
 
+
             //}
             //Console.ReadLine();
 
             //---------------------------------------------------------------------//
+            ////how to find even and od numbers
+            ///int x = i % 2;
 
             //int[] cars = { 2, 3, 4, 5 };
             //foreach (int i in cars)
@@ -85,7 +97,8 @@
             //Console.ReadLine();
 
             //---------------------------------------------------------------------//
-
+            ////how to make math table
+            ///
             //Console.WriteLine("----------------------------------------------------");
             //int i, j;
             //for (i = 1; i <= 10; i++)
@@ -103,6 +116,8 @@
             //Console.ReadLine();
 
             //---------------------------------------------------------------------//
+            ////how to find bigest od number?
+            ////how to dind 2 bigest od number?
 
             //int[] b = new int[] { 2, 1, 7, 9, 11, 12, 14, 67, 90 };
             //int w = 0;
@@ -134,55 +149,5 @@
             //Console.WriteLine(x);
             //Console.WriteLine(w);
             //Console.ReadLine();
-
-            //---------------------------------------------------------------------//
-            //float result = 0;
-            ////Getting Input of First number
-            //Console.WriteLine("Enter first number");
-            //float num1 = float.Parse(Console.ReadLine());
-
-            ////Getting Input of second number
-            //Console.WriteLine("Enter second number");
-            //float num2 = float.Parse(Console.ReadLine());
-
-            ////Getting the math operator
-            //Console.WriteLine("Enter operator:(+,-,*,/,%)");
-            //string op = Console.ReadLine();
-            //switch (op)
-            //{
-            //    case "+":
-            //        result = num1 + num2;
-            //        break;
-
-            //    case "-":
-            //        result = num1 - num2;
-            //        break;
-
-            //    case "*":
-            //        result = num1 * num2;
-            //        break;
-
-            //    case "/":
-            //        if (num2 == 0)
-            //        {
-            //            Console.WriteLine("cant diveid by zero");
-            //            break;
-            //        }
-            //        result = num1 / num2;
-            //        break;
-            //    case "%":
-            //        result = num1 % num2;
-            //        break;
-
-            //    default:
-            //        Console.WriteLine("mistake");
-            //        break;
-            //}
-
-            //Console.WriteLine("Result = " + result);
-            //Console.ReadLine();
-
-
-            //---------------------------------------------------------------------//
 
             //---------------------------------------------------------------------//
